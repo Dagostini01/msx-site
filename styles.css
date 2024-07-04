@@ -10,8 +10,8 @@ footer {
   background-color: #f8f9fa;
 }
 
-.navbar-msx-img {
-  background-image: url('/background-header.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+@media (max-width: 769px) {
+  .navbar-msx-li-mob{
+    margin-bottom: 5px;
+  }
 }
