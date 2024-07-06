@@ -10,10 +10,8 @@ footer {
   background-color: #f8f9fa;
 }
 
-@media (max-width: 769px) {
-  .navbar-msx-li-mob {
-    margin-bottom: 5px;
-  }
+.responsive-img {
+  transition: width 0.3s;
 }
 
 .bg-image {
@@ -21,4 +19,19 @@ footer {
   height: 85vh;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 769px) {
+  .navbar-msx-li-mob {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .responsive-img-w {
+    width: 70px; /* Ajuste o valor conforme necessário */
+  }
+  .responsive-img-l {
+    width: 150px; /* Ajuste o valor conforme necessário */
+  }
 }
