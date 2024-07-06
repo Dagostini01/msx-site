@@ -11,7 +11,14 @@ footer {
 }
 
 @media (max-width: 769px) {
-  .navbar-msx-li-mob{
+  .navbar-msx-li-mob {
     margin-bottom: 5px;
   }
+}
+
+.bg-image {
+  background-image: url('/images/background-image1.jpg');
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
 }
