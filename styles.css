@@ -6,9 +6,15 @@ button {
   border: 0 !important;
 }
 
-h1 {
+h1, h2 {
   color: #007bff;
 }
+
+/* Aplica a fonte 'Roboto' nas tags de título e parágrafo */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 footer {
   background-color: #f8f9fa;
