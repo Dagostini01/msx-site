@@ -2,6 +2,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+button {
+  border: 0 !important;
+}
+
 h1 {
   color: #007bff;
 }
@@ -58,4 +62,223 @@ footer {
     margin-right: 0; /* Remove margem à direita para dispositivos menores */
     margin-bottom: 20px; /* Espaço inferior entre o carrossel e o texto */
   }
+}
+
+/* SEÇÃO O QUE É */
+
+#secao-oque-e {
+  display: grid;
+  gap: 10px;
+}
+
+#secao-oque-e .card {
+  border-radius: 50px;
+}
+
+#secao-oque-e-segundo-card {
+  min-height: 540px;
+}
+
+#secao-oque-e-primeiro-card img {
+  border-radius: 0 0 49px 49px;
+}
+
+#secao-oque-e-terceiro-card img {
+  border-radius: 49px 49px 0 0;
+}
+
+#secao-oque-e-segundo-card span {
+  background-color: #1c313f;
+  box-shadow: 0px 5px 0px 0px #000000;
+}
+
+#secao-oque-e-segundo-card img{
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsivo da seção o que é */
+
+@media (max-width: 490px) {
+  #secao-oque-e {
+    grid-template-columns: 100% ;
+  }
+}
+
+@media (min-width: 775px) {
+  #secao-oque-e {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 1075px) {
+  #secao-oque-e {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+/* Responsivo do segundo card */
+
+@media (min-width: 0px) and (max-width: 399px) {
+  #secao-oque-e-segundo-card span {
+    font-size: 9px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 469px){
+  #secao-oque-e-segundo-card span {
+    font-size: 11px !important;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 549px){
+  #secao-oque-e-segundo-card span {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 774px){
+  #secao-oque-e-segundo-card span {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 775px) and (max-width: 899px){
+  #secao-oque-e-segundo-card span {
+    font-size: 11px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1074px){
+  #secao-oque-e-segundo-card span {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 1074px) and (max-width: 1189px){
+  #secao-oque-e-segundo-card span {
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 1190px) and (max-width: 1300px){
+  #secao-oque-e-segundo-card span {
+    font-size: 11px !important;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1575px){
+  #secao-oque-e-segundo-card span {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 490px) {
+  #secao-oque-e-segundo-card-box-infos h2 {
+    font-size: 25px !important;
+  }
+
+  #secao-oque-e-segundo-card-box-infos p {
+    font-size: 20px !important;
+  }
+
+  #secao-oque-e-segundo-card-box-infos button {
+    font-size: 16px !important;
+  }
+}
+
+/* SEÇÃO CONTATO */
+#secao-contato-container {
+  background-color: #eca700 !important;
+  max-width: 1154px;
+  width: 100%;
+}
+
+#secao-contato-container-titulos {
+  margin-top: -80px;
+  border-radius: 10px;
+}
+
+@media (max-width: 420px) {
+  .contato-box-info p{
+    font-size: 18px !important;
+  }
+
+  #secao-contato-container-titulos h2 {
+    font-size: 20px !important;
+  }
+
+  #secao-contato-container img{
+    width: 300px;
+  }
+
+  #secao-contato-container-titulos {
+    margin-top: -90px;
+  }
+}
+
+@media (min-width: 420px) {
+  .contato-box-info p{
+    font-size: 22px !important;
+  }
+
+  #secao-contato-container-titulos h2{
+    font-size: 24px !important;
+  }
+
+  #secao-contato-container img{
+    width: 350px;
+  }
+
+  #secao-contato-container-titulos {
+    margin-top: -96px;
+  }
+}
+
+@media (min-width: 720px) {
+  .contato-box-info p{
+    font-size: 28px !important;
+  }
+
+  #secao-contato-container-titulos h2{
+    font-size: 32px !important;
+  }
+
+  #secao-contato-container img{
+    width: 400px;
+  }
+
+  #secao-contato-container {
+    padding: 0 40px 40px 40px;
+  }
+
+  #secao-contato-container-titulos {
+    margin-top: -102px;
+  }
+}
+
+@media (min-width: 1150px) {
+
+  #secao-contato-container {
+    border-radius: 50px;
+  }
+}
+
+
+/* SECÃO FOOTER */
+
+#secao-footer-box-msx-lego img:first-child {
+  width: auto;
+  height: 100px;
+}
+
+#secao-footer-box-msx-lego img:last-child {
+  width: auto;
+  height: 50px;
+}
+
+#secao-footer-box-sociais img {
+  width: auto;
+  height: 30px;
 }
