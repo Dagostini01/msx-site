@@ -282,3 +282,7 @@ footer {
   width: auto;
   height: 30px;
 }
+
+.carousel-indicators{
+  display: none;
+}
