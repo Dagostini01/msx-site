@@ -33,10 +33,13 @@ footer {
 
 @media (max-width: 500px) {
   .responsive-img-w {
-    width: 70px; /* Ajuste o valor conforme necessário */
+    width: 70px;
+    /* Ajuste o valor conforme necessário */
   }
+
   .responsive-img-l {
-    width: 150px; /* Ajuste o valor conforme necessário */
+    width: 150px;
+    /* Ajuste o valor conforme necessário */
   }
 }
 
@@ -46,21 +49,27 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
 .carousel {
   flex: 1;
   margin-right: 20px;
 }
+
 .text-section {
   flex: 1;
 }
 
 @media (max-width: 768px) {
   .flex-container {
-    flex-direction: column; /* Altera para layout de coluna em dispositivos menores */
+    flex-direction: column;
+    /* Altera para layout de coluna em dispositivos menores */
   }
+
   .carousel {
-    margin-right: 0; /* Remove margem à direita para dispositivos menores */
-    margin-bottom: 20px; /* Espaço inferior entre o carrossel e o texto */
+    margin-right: 0;
+    /* Remove margem à direita para dispositivos menores */
+    margin-bottom: 20px;
+    /* Espaço inferior entre o carrossel e o texto */
   }
 }
 
@@ -92,7 +101,7 @@ footer {
   box-shadow: 0px 5px 0px 0px #000000;
 }
 
-#secao-oque-e-segundo-card img{
+#secao-oque-e-segundo-card img {
   max-width: 450px;
   width: 100%;
   height: auto;
@@ -102,7 +111,7 @@ footer {
 
 @media (max-width: 490px) {
   #secao-oque-e {
-    grid-template-columns: 100% ;
+    grid-template-columns: 100%;
   }
 }
 
@@ -126,49 +135,49 @@ footer {
   }
 }
 
-@media (min-width: 400px) and (max-width: 469px){
+@media (min-width: 400px) and (max-width: 469px) {
   #secao-oque-e-segundo-card span {
     font-size: 11px !important;
   }
 }
 
-@media (min-width: 470px) and (max-width: 549px){
+@media (min-width: 470px) and (max-width: 549px) {
   #secao-oque-e-segundo-card span {
     font-size: 13px !important;
   }
 }
 
-@media (min-width: 550px) and (max-width: 774px){
+@media (min-width: 550px) and (max-width: 774px) {
   #secao-oque-e-segundo-card span {
     font-size: 15px !important;
   }
 }
 
-@media (min-width: 775px) and (max-width: 899px){
+@media (min-width: 775px) and (max-width: 899px) {
   #secao-oque-e-segundo-card span {
     font-size: 11px !important;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1074px){
+@media (min-width: 900px) and (max-width: 1074px) {
   #secao-oque-e-segundo-card span {
     font-size: 13px !important;
   }
 }
 
-@media (min-width: 1074px) and (max-width: 1189px){
+@media (min-width: 1074px) and (max-width: 1189px) {
   #secao-oque-e-segundo-card span {
     font-size: 10px !important;
   }
 }
 
-@media (min-width: 1190px) and (max-width: 1300px){
+@media (min-width: 1190px) and (max-width: 1300px) {
   #secao-oque-e-segundo-card span {
     font-size: 11px !important;
   }
 }
 
-@media (min-width: 1301px) and (max-width: 1575px){
+@media (min-width: 1301px) and (max-width: 1575px) {
   #secao-oque-e-segundo-card span {
     font-size: 12px !important;
   }
@@ -201,7 +210,7 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .contato-box-info p{
+  .contato-box-info p {
     font-size: 18px !important;
   }
 
@@ -209,7 +218,7 @@ footer {
     font-size: 20px !important;
   }
 
-  #secao-contato-container img{
+  #secao-contato-container img {
     width: 300px;
   }
 
@@ -219,15 +228,15 @@ footer {
 }
 
 @media (min-width: 420px) {
-  .contato-box-info p{
+  .contato-box-info p {
     font-size: 22px !important;
   }
 
-  #secao-contato-container-titulos h2{
+  #secao-contato-container-titulos h2 {
     font-size: 24px !important;
   }
 
-  #secao-contato-container img{
+  #secao-contato-container img {
     width: 350px;
   }
 
@@ -237,15 +246,15 @@ footer {
 }
 
 @media (min-width: 720px) {
-  .contato-box-info p{
+  .contato-box-info p {
     font-size: 28px !important;
   }
 
-  #secao-contato-container-titulos h2{
+  #secao-contato-container-titulos h2 {
     font-size: 32px !important;
   }
 
-  #secao-contato-container img{
+  #secao-contato-container img {
     width: 400px;
   }
 
@@ -283,6 +292,22 @@ footer {
   height: 30px;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   display: none;
+}
+
+@media (min-width: 1200px) {
+  .carousel-inner {
+    width: 75%;
+  }
+
+}
+
+.carousel-inner {
+  width: 55%;
+}
+
+#carouselExampleIndicators {
+  display: flex;
+  justify-content: space-around;
 }
